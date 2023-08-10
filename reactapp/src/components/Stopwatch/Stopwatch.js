@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 const Stopwatch = () => {
   // state to track the elapsed time
   const [disable, setDisable] = useState(true);
